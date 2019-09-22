@@ -1,3 +1,31 @@
 #add-btn {
-    color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: green;
+    padding: 14px 28px;
+    margin-left: 10px;
+}
+
+#add-btn:hover {
+    background: blue;
+}
+
+#add-btn:active {
+    background: darkblue;
+}
+
+#task-to-add {
+    font-size: 18px;
+}
+
+.title-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+.task-add {
+    display: flex;
 }
