@@ -8,11 +8,11 @@
 }
 
 #add-btn:hover {
-    background: blue;
+    background: rgb(1, 82, 1);
 }
 
 #add-btn:active {
-    background: darkblue;
+    transform: translateY(4px);
 }
 
 #task-to-add {
@@ -23,7 +23,6 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    /* background-color: aqua; */
 }
 
 .task-add {
